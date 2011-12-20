@@ -30,7 +30,7 @@
   <groupId>org.mybatis</groupId>
   <artifactId>base-bundle-descriptor</artifactId>
   <name>MyBatis base bundle descriptor</name>
-  <version>2</version>
+  <version>3-SNAPSHOT</version>
   <inceptionYear>2010</inceptionYear>
 
   <organization>
@@ -52,9 +52,9 @@
   </issueManagement>
 
   <scm>
-    <url>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/base-bundle-descriptor/tags/base-bundle-descriptor-2</url>
-    <connection>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/base-bundle-descriptor/tags/base-bundle-descriptor-2</connection>
-    <developerConnection>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/base-bundle-descriptor/tags/base-bundle-descriptor-2</developerConnection>
+    <url>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/base-bundle-descriptor/trunk</url>
+    <connection>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/base-bundle-descriptor/trunk</connection>
+    <developerConnection>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/base-bundle-descriptor/trunk</developerConnection>
   </scm>
 
   <build>
