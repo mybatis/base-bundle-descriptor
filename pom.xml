@@ -30,7 +30,7 @@
   <groupId>org.mybatis</groupId>
   <artifactId>base-bundle-descriptor</artifactId>
   <name>MyBatis base bundle descriptor</name>
-  <version>1.0.2-SNAPSHOT</version>
+  <version>2-SNAPSHOT</version>
   <inceptionYear>2010</inceptionYear>
 
   <organization>
