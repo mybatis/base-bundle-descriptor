@@ -1,196 +1,196 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
-    Copyright 2010 The myBatis Team
+  Copyright 2010 The myBatis Team
 
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
+  Licensed under the Apache License, Version 2.0 (the "License");
+  you may not use this file except in compliance with the License.
+  You may obtain a copy of the License at
 
-        http://www.apache.org/licenses/LICENSE-2.0
+    http://www.apache.org/licenses/LICENSE-2.0
 
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
+  Unless required by applicable law or agreed to in writing, software
+  distributed under the License is distributed on an "AS IS" BASIS,
+  WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  See the License for the specific language governing permissions and
+  limitations under the License.
 -->
 
 <!--
-    version: $Id$
+  version: $Id$
 -->
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 
-    <parent>
-        <groupId>org.sonatype.oss</groupId>
-        <artifactId>oss-parent</artifactId>
-        <version>5</version>
-    </parent>
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>5</version>
+  </parent>
 
-    <modelVersion>4.0.0</modelVersion>
-    <groupId>org.mybatis</groupId>
-    <artifactId>base-bundle-descriptor</artifactId>
-    <name>MyBatis base bundle descriptor</name>
-    <version>1.0.2-SNAPSHOT</version>
-    <inceptionYear>2010</inceptionYear>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.mybatis</groupId>
+  <artifactId>base-bundle-descriptor</artifactId>
+  <name>MyBatis base bundle descriptor</name>
+  <version>1.0.2-SNAPSHOT</version>
+  <inceptionYear>2010</inceptionYear>
 
-    <organization>
-        <name>MyBatis.org</name>
-        <url>http://www.mybatis.org/</url>
-    </organization>
+  <organization>
+    <name>MyBatis.org</name>
+    <url>http://www.mybatis.org/</url>
+  </organization>
 
-    <licenses>
-        <license>
-            <name>The Apache Software License, Version 2.0</name>
-            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
-            <distribution>repo</distribution>
-        </license>
-    </licenses>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
 
-    <issueManagement>
-        <system>Google-Code Issue Management</system>
-        <url>http://code.google.com/p/mybatis/issues/</url>
-    </issueManagement>
+  <issueManagement>
+    <system>Google-Code Issue Management</system>
+    <url>http://code.google.com/p/mybatis/issues/</url>
+  </issueManagement>
 
-    <mailingLists>
-        <mailingList>
-            <name>mybatis-dev</name>
-            <archive>http://groups.google.com/group/mybatis-dev/topics</archive>
-            <subscribe>http://groups.google.com/group/mybatis-dev/subscribe</subscribe>
-            <unsubscribe>http://groups.google.com/group/mybatis-dev/subscribe</unsubscribe>
-            <post>mybatis-dev@googlegroups.com</post>
-        </mailingList>
+  <mailingLists>
+    <mailingList>
+      <name>mybatis-dev</name>
+      <archive>http://groups.google.com/group/mybatis-dev/topics</archive>
+      <subscribe>http://groups.google.com/group/mybatis-dev/subscribe</subscribe>
+      <unsubscribe>http://groups.google.com/group/mybatis-dev/subscribe</unsubscribe>
+      <post>mybatis-dev@googlegroups.com</post>
+    </mailingList>
 
-        <mailingList>
-            <name>mybatis-user</name>
-            <archive>http://groups.google.com/group/mybatis-user/topics</archive>
-            <subscribe>http://groups.google.com/group/mybatis-user/subscribe</subscribe>
-            <unsubscribe>http://groups.google.com/group/mybatis-user/subscribe</unsubscribe>
-            <post>mybatis-user@googlegroups.com</post>
-        </mailingList>
+    <mailingList>
+      <name>mybatis-user</name>
+      <archive>http://groups.google.com/group/mybatis-user/topics</archive>
+      <subscribe>http://groups.google.com/group/mybatis-user/subscribe</subscribe>
+      <unsubscribe>http://groups.google.com/group/mybatis-user/subscribe</unsubscribe>
+      <post>mybatis-user@googlegroups.com</post>
+    </mailingList>
 
-        <mailingList>
-            <name>mybatis-commits</name>
-            <archive>http://groups.google.com/group/mybatis-commits/topics</archive>
-            <subscribe>http://groups.google.com/group/mybatis-commits/subscribe</subscribe>
-            <unsubscribe>http://groups.google.com/group/mybatis-commits/subscribe</unsubscribe>
-            <post>mybatis-commits@googlegroups.com</post>
-        </mailingList>
-    </mailingLists>
+    <mailingList>
+      <name>mybatis-commits</name>
+      <archive>http://groups.google.com/group/mybatis-commits/topics</archive>
+      <subscribe>http://groups.google.com/group/mybatis-commits/subscribe</subscribe>
+      <unsubscribe>http://groups.google.com/group/mybatis-commits/subscribe</unsubscribe>
+      <post>mybatis-commits@googlegroups.com</post>
+    </mailingList>
+  </mailingLists>
 
-    <developers>
-        <developer>
-            <id>clinton.begin</id>
-            <name>Clinton Begin</name>
-            <email>clinton.begin@gmail.com</email>
-            <roles>
-                <role>Owner</role>
-                <role>Committer</role>
-            </roles>
-        </developer>
+  <developers>
+    <developer>
+      <id>clinton.begin</id>
+      <name>Clinton Begin</name>
+      <email>clinton.begin@gmail.com</email>
+      <roles>
+        <role>Owner</role>
+        <role>Committer</role>
+      </roles>
+    </developer>
 
-        <developer>
-            <id>brandon.goodin</id>
-            <name>Brandon Goodin</name>
-            <email>brandon.goodin@gmail.com</email>
-            <roles>
-                <role>Committer</role>
-            </roles>
-        </developer>
+    <developer>
+      <id>brandon.goodin</id>
+      <name>Brandon Goodin</name>
+      <email>brandon.goodin@gmail.com</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+    </developer>
 
-        <developer>
-            <id>christian.poitras@ircm.qc.ca</id>
-            <name>Christian Poitras</name>
-            <email>christian.poitras@ircm.qc.ca</email>
-            <roles>
-                <role>Committer</role>
-            </roles>
-            <timezone>-5</timezone>
-        </developer>
+    <developer>
+      <id>christian.poitras@ircm.qc.ca</id>
+      <name>Christian Poitras</name>
+      <email>christian.poitras@ircm.qc.ca</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+      <timezone>-5</timezone>
+    </developer>
 
-        <developer>
-            <id>jeffgbutler</id>
-            <name>Jeff Butler</name>
-            <email>jeffgbutler@gmail.com</email>
-            <roles>
-                <role>Committer</role>
-            </roles>
-        </developer>
+    <developer>
+      <id>jeffgbutler</id>
+      <name>Jeff Butler</name>
+      <email>jeffgbutler@gmail.com</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+    </developer>
 
-        <developer>
-            <id>nospam@kaigrabfelder.de</id>
-            <name>Kai Grabfelder</name>
-            <email>nospam@kaigrabfelder.de</email>
-            <roles>
-                <role>Committer</role>
-            </roles>
-        </developer>
+    <developer>
+      <id>nospam@kaigrabfelder.de</id>
+      <name>Kai Grabfelder</name>
+      <email>nospam@kaigrabfelder.de</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+    </developer>
 
-        <developer>
-            <id>larry.meadors</id>
-            <name>Larry Meadors</name>
-            <email>larry.meadors@gmail.com</email>
-            <roles>
-                <role>Committer</role>
-            </roles>
-        </developer>
+    <developer>
+      <id>larry.meadors</id>
+      <name>Larry Meadors</name>
+      <email>larry.meadors@gmail.com</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+    </developer>
 
-        <developer>
-            <id>marco.speranza79</id>
-            <name>Marco Speranza</name>
-            <email>marco.speranza79@gmail.com</email>
-            <timezone>+1</timezone>
-            <roles>
-                <role>Committer</role>
-            </roles>
-        </developer>
+    <developer>
+      <id>marco.speranza79</id>
+      <name>Marco Speranza</name>
+      <email>marco.speranza79@gmail.com</email>
+      <timezone>+1</timezone>
+      <roles>
+        <role>Committer</role>
+      </roles>
+    </developer>
 
-        <developer>
-            <id>nathan.maves</id>
-            <name>Nathan Maves</name>
-            <email>nathan.maves@gmail.com</email>
-            <roles>
-                <role>Committer</role>
-            </roles>
-        </developer>
+    <developer>
+      <id>nathan.maves</id>
+      <name>Nathan Maves</name>
+      <email>nathan.maves@gmail.com</email>
+      <roles>
+        <role>Committer</role>
+      </roles>
+    </developer>
 
-        <developer>
-            <id>simone.tripodi</id>
-            <name>Simone Tripodi</name>
-            <email>simone.tripodi@gmail.com</email>
-            <timezone>+1</timezone>
-            <roles>
-                <role>Committer</role>
-            </roles>
-        </developer>
-    </developers>
+    <developer>
+      <id>simone.tripodi</id>
+      <name>Simone Tripodi</name>
+      <email>simone.tripodi@gmail.com</email>
+      <timezone>+1</timezone>
+      <roles>
+        <role>Committer</role>
+      </roles>
+    </developer>
+  </developers>
 
-    <scm>
-        <url>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/base-bundle-descriptor/trunk</url>
-        <connection>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/base-bundle-descriptor/trunk</connection>
-        <developerConnection>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/base-bundle-descriptor/trunk</developerConnection>
-    </scm>
+  <scm>
+    <url>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/base-bundle-descriptor/trunk</url>
+    <connection>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/base-bundle-descriptor/trunk</connection>
+    <developerConnection>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/base-bundle-descriptor/trunk</developerConnection>
+  </scm>
 
-    <build>
-        <plugins>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-release-plugin</artifactId>
-            </plugin>
-        </plugins>
+  <build>
+    <plugins>
+      <plugin>
+        <groupId>org.apache.maven.plugins</groupId>
+        <artifactId>maven-release-plugin</artifactId>
+      </plugin>
+    </plugins>
 
-        <resources>
-            <resource>
-                <directory>src/main/resources</directory>
-            </resource>
+    <resources>
+      <resource>
+        <directory>src/main/resources</directory>
+      </resource>
 
-            <resource>
-                <directory>.</directory>
-                <targetPath>META-INF</targetPath>
-                <includes>
-                    <include>LICENSE</include>
-                </includes>
-            </resource>
-        </resources>
-    </build>
+      <resource>
+        <directory>.</directory>
+        <targetPath>META-INF</targetPath>
+        <includes>
+          <include>LICENSE</include>
+        </includes>
+      </resource>
+    </resources>
+  </build>
 
 </project>
