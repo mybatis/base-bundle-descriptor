@@ -48,6 +48,9 @@
       <useProjectArtifact>true</useProjectArtifact>
       <useProjectAttachments>true</useProjectAttachments>
       <useTransitiveDependencies>false</useTransitiveDependencies>
+      <includes>
+        <include>org.mybatis*:*</include>
+      </includes>
     </dependencySet>
   </dependencySets>
 
