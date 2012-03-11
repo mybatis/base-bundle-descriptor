@@ -30,15 +30,6 @@
 
   <files>
     <file>
-      <source>${project.build.directory}/${project.artifactId}-${project.version}.${project.packaging}</source>
-    </file>
-    <file>
-      <source>${project.build.directory}/${project.artifactId}-${project.version}-javadoc.${project.packaging}</source>
-    </file>
-    <file>
-      <source>${project.build.directory}/${project.artifactId}-${project.version}-sources.${project.packaging}</source>
-    </file>
-    <file>
       <source>LICENSE</source>
     </file>
     <file>
@@ -48,8 +39,15 @@
 
   <dependencySets>
     <dependencySet>
-      <outputDirectory>lib</outputDirectory>
+      <outputDirectory>/lib</outputDirectory>
       <useProjectArtifact>false</useProjectArtifact>
+    </dependencySet>
+
+    <dependencySet>
+      <outputDirectory>/</outputDirectory>
+      <useProjectArtifact>true</useProjectArtifact>
+      <useProjectAttachments>true</useProjectAttachments>
+      <useTransitiveDependencies>false</useTransitiveDependencies>
     </dependencySet>
   </dependencySets>
 
