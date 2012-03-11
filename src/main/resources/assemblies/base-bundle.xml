@@ -28,14 +28,21 @@
     <format>zip</format>
   </formats>
 
-  <files>
-    <file>
-      <source>LICENSE</source>
-    </file>
-    <file>
-      <source>NOTICE</source>
-    </file>
-  </files>
+  <fileSets>
+    <fileSet>
+      <directory>${basedir}</directory>
+      <outputDirectory>/</outputDirectory>
+      <includes>
+        <include>LICENSE</include>
+        <include>NOTICE</include>
+      </includes>
+    </fileSet>
+
+    <fileSet>
+      <directory>${project.build.directory}/pdf</directory>
+      <outputDirectory>/</outputDirectory>
+    </fileSet>
+  </fileSets>
 
   <dependencySets>
     <dependencySet>
