@@ -41,6 +41,9 @@
     <fileSet>
       <directory>${project.build.directory}/pdf</directory>
       <outputDirectory>/</outputDirectory>
+      <includes>
+        <include>**/*.pdf</include>
+      </includes>
     </fileSet>
   </fileSets>
 
