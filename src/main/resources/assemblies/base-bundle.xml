@@ -59,7 +59,7 @@
       <useProjectAttachments>true</useProjectAttachments>
       <useTransitiveDependencies>false</useTransitiveDependencies>
       <includes>
-        <include>org.mybatis*:*</include>
+        <include>${project.groupId}:${project.artifactId}*</include>
       </includes>
     </dependencySet>
   </dependencySets>
