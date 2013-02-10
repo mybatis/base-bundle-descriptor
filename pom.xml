@@ -41,16 +41,16 @@
     </license>
   </licenses>
 
-  <issueManagement>
-    <system>Google-Code Issue Management</system>
-    <url>http://code.google.com/p/mybatis/issues/</url>
-  </issueManagement>
-
   <scm>
-    <url>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/base-bundle-descriptor/trunk</url>
-    <connection>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/base-bundle-descriptor/trunk</connection>
-    <developerConnection>scm:svn:https://mybatis.googlecode.com/svn/sub-projects/base-bundle-descriptor/trunk</developerConnection>
+    <url>http://github.com/mybatis/base-bundle-descriptor</url>
+    <connection>scm:git:ssh://github.com/mybatis/base-bundle-descriptor.git</connection>
+    <developerConnection>scm:git:git+ssh://git@github.com/mybatis/base-bundle-descriptor.git</developerConnection>
+    <tag>HEAD</tag>
   </scm>
+  <issueManagement>
+    <system>GitHub Issue Management</system>
+    <url>https://github.com/mybatis/base-bundle-descriptor/issues</url>
+  </issueManagement>
 
   <build>
     <resources>
