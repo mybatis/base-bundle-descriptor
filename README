@@ -1,0 +1,1 @@
+The base-bundle-descriptor is a shared maven-assembly-plugin descriptor to create binary distributions for all MyBatis modules
