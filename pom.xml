@@ -51,6 +51,10 @@
     <system>GitHub Issue Management</system>
     <url>https://github.com/mybatis/base-bundle-descriptor/issues</url>
   </issueManagement>
+  <ciManagement>
+    <system>Travis CI</system>
+    <url>https://travis-ci.org/mybatis/base-bundle-descriptor</url>
+  </ciManagement>
 
   <build>
     <plugins>
