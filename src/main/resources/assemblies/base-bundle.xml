@@ -53,7 +53,7 @@
     <dependencySet>
       <outputDirectory>/</outputDirectory>
       <useProjectArtifact>true</useProjectArtifact>
-      <useProjectAttachments>true</useProjectAttachments>
+      <useProjectAttachments>false</useProjectAttachments>
       <useTransitiveDependencies>false</useTransitiveDependencies>
       <includes>
         <include>${project.groupId}:${project.artifactId}*</include>
