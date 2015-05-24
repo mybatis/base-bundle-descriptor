@@ -44,7 +44,7 @@
   <scm>
     <url>http://github.com/mybatis/base-bundle-descriptor</url>
     <connection>scm:git:ssh://github.com/mybatis/base-bundle-descriptor.git</connection>
-    <developerConnection>scm:git:git+ssh://git@github.com/mybatis/base-bundle-descriptor.git</developerConnection>
+    <developerConnection>scm:git:ssh://git@github.com/mybatis/base-bundle-descriptor.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
   <issueManagement>
