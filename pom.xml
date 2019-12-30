@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 
-       Copyright 2010-2018 the original author or authors.
+       Copyright 2010-2019 the original author or authors.
 
        Licensed under the Apache License, Version 2.0 (the "License");
        you may not use this file except in compliance with the License.
@@ -27,7 +27,7 @@
   </parent>
 
   <artifactId>base-bundle-descriptor</artifactId>
-  <version>9-SNAPSHOT</version>
+  <version>9</version>
 
   <name>MyBatis base bundle descriptor</name>
   <description>MyBatis base bundle descriptor</description>
@@ -37,7 +37,7 @@
     <url>https://github.com/mybatis/base-bundle-descriptor</url>
     <connection>scm:git:ssh://github.com/mybatis/base-bundle-descriptor.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/mybatis/base-bundle-descriptor.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>base-bundle-descriptor-9</tag>
   </scm>
   <issueManagement>
     <system>GitHub Issue Management</system>
