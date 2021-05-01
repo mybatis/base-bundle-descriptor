@@ -56,7 +56,7 @@
   </distributionManagement>
 
   <properties>
-    <clirr.comparisonVersion>8</clirr.comparisonVersion>
+    <clirr.comparisonVersion>9</clirr.comparisonVersion>
   </properties>
 
   <build>
