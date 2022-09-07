@@ -6,7 +6,7 @@ MYBATIS Binary Distribution
 [![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/oss.sonatype.org/org.mybatis/base-bundle-descriptor.svg)](https://oss.sonatype.org/content/repositories/snapshots/org/mybatis/base-bundle-descriptor/)
 [![License](https://img.shields.io/:license-apache-brightgreen.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
-![mybatis](http://mybatis.github.io/images/mybatis-logo.png)
+![mybatis](https://mybatis.org/images/mybatis-logo.png)
 
 The base-bundle-descriptor is a shared maven-assembly-plugin descriptor to create binary distributions for all MyBatis modules
 
