@@ -58,6 +58,9 @@
 
   <properties>
     <clirr.comparisonVersion>9</clirr.comparisonVersion>
+
+    <!-- Reproducible Builds -->
+    <project.build.outputTimestamp>1757561022</project.build.outputTimestamp>
   </properties>
 
   <build>
