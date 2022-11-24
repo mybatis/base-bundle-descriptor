@@ -16,8 +16,8 @@
        limitations under the License.
 
 -->
-<assembly xmlns="https://maven.apache.org/ASSEMBLY/2.1.0" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
-    xsi:schemaLocation="https://maven.apache.org/ASSEMBLY/2.1.0 https://maven.apache.org/xsd/assembly-2.1.0.xsd">
+<assembly xmlns="https://maven.apache.org/ASSEMBLY/2.1.1" xmlns:xsi="https://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="https://maven.apache.org/ASSEMBLY/2.1.1 https://maven.apache.org/xsd/assembly-2.1.1.xsd">
 
   <id>bundle</id>
 
