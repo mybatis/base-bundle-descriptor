@@ -27,6 +27,7 @@
     <relativePath />
   </parent>
 
+  <groupId>org.mybatis</groupId>
   <artifactId>base-bundle-descriptor</artifactId>
   <version>11-SNAPSHOT</version>
 
@@ -36,7 +37,7 @@
 
   <scm>
     <url>https://github.com/mybatis/base-bundle-descriptor</url>
-    <connection>scm:git:ssh://github.com/mybatis/base-bundle-descriptor.git</connection>
+    <connection>scm:git:ssh://git@github.com/mybatis/base-bundle-descriptor.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/mybatis/base-bundle-descriptor.git</developerConnection>
     <tag>HEAD</tag>
   </scm>
@@ -50,9 +51,9 @@
   </ciManagement>
   <distributionManagement>
     <site>
-      <id>gh-pages</id>
+      <id>gh-pages-scm</id>
       <name>Mybatis GitHub Pages</name>
-      <url>git:ssh://git@github.com/mybatis/base-bundle-descriptor.git?gh-pages#</url>
+      <url>scm:git:ssh://git@github.com/mybatis/base-bundle-descriptor.git</url>
     </site>
   </distributionManagement>
 
