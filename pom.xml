@@ -24,7 +24,7 @@
     <groupId>org.mybatis</groupId>
     <artifactId>mybatis-parent</artifactId>
     <version>39</version>
-    <relativePath />
+    <relativePath/>
   </parent>
 
   <groupId>org.mybatis</groupId>
@@ -36,10 +36,10 @@
   <inceptionYear>2010</inceptionYear>
 
   <scm>
-    <url>https://github.com/mybatis/base-bundle-descriptor</url>
     <connection>scm:git:ssh://git@github.com/mybatis/base-bundle-descriptor.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/mybatis/base-bundle-descriptor.git</developerConnection>
     <tag>HEAD</tag>
+    <url>https://github.com/mybatis/base-bundle-descriptor</url>
   </scm>
   <issueManagement>
     <system>GitHub Issue Management</system>
@@ -65,6 +65,12 @@
   </properties>
 
   <build>
+
+    <resources>
+      <resource>
+        <directory>${project.basedir}/src/main/resources-unfiltered</directory>
+      </resource>
+    </resources>
     <plugins>
       <plugin>
         <groupId>org.apache.maven.plugins</groupId>
@@ -79,12 +85,6 @@
         </dependencies>
       </plugin>
     </plugins>
-
-    <resources>
-      <resource>
-        <directory>${project.basedir}/src/main/resources-unfiltered</directory>
-      </resource>
-    </resources>
   </build>
 
 </project>
