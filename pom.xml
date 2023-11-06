@@ -24,12 +24,12 @@
     <groupId>org.mybatis</groupId>
     <artifactId>mybatis-parent</artifactId>
     <version>39</version>
-    <relativePath/>
+    <relativePath />
   </parent>
 
   <groupId>org.mybatis</groupId>
   <artifactId>base-bundle-descriptor</artifactId>
-  <version>11-SNAPSHOT</version>
+  <version>11</version>
 
   <name>MyBatis base bundle descriptor</name>
   <description>MyBatis base bundle descriptor</description>
@@ -38,7 +38,7 @@
   <scm>
     <connection>scm:git:ssh://git@github.com/mybatis/base-bundle-descriptor.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/mybatis/base-bundle-descriptor.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>base-bundle-descriptor-11</tag>
     <url>https://github.com/mybatis/base-bundle-descriptor</url>
   </scm>
   <issueManagement>
@@ -61,7 +61,7 @@
     <clirr.comparisonVersion>9</clirr.comparisonVersion>
 
     <!-- Reproducible Builds -->
-    <project.build.outputTimestamp>1669308750</project.build.outputTimestamp>
+    <project.build.outputTimestamp>1699291490</project.build.outputTimestamp>
   </properties>
 
   <build>
