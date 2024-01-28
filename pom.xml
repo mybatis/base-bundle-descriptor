@@ -34,6 +34,7 @@
   <name>MyBatis base bundle descriptor</name>
   <description>MyBatis base bundle descriptor</description>
   <inceptionYear>2010</inceptionYear>
+  <url>https://www.mybatis.org/base-bundle-descriptor/</url>
 
   <scm>
     <connection>scm:git:ssh://git@github.com/mybatis/base-bundle-descriptor.git</connection>
