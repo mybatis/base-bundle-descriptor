@@ -31,7 +31,7 @@
   <artifactId>base-bundle-descriptor</artifactId>
   <version>12-SNAPSHOT</version>
 
-  <name>MyBatis base bundle descriptor</name>
+  <name>base-bundle-descriptor</name>
   <description>MyBatis base bundle descriptor</description>
   <inceptionYear>2010</inceptionYear>
   <url>https://www.mybatis.org/base-bundle-descriptor/</url>
