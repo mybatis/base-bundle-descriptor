@@ -29,7 +29,7 @@
 
   <groupId>org.mybatis</groupId>
   <artifactId>base-bundle-descriptor</artifactId>
-  <version>12-SNAPSHOT</version>
+  <version>12</version>
 
   <name>base-bundle-descriptor</name>
   <description>MyBatis base bundle descriptor</description>
@@ -39,7 +39,7 @@
   <scm>
     <connection>scm:git:ssh://git@github.com/mybatis/base-bundle-descriptor.git</connection>
     <developerConnection>scm:git:ssh://git@github.com/mybatis/base-bundle-descriptor.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>base-bundle-descriptor-12</tag>
     <url>https://github.com/mybatis/base-bundle-descriptor/</url>
   </scm>
   <issueManagement>
@@ -62,7 +62,7 @@
     <clirr.comparisonVersion>9</clirr.comparisonVersion>
 
     <!-- Reproducible Builds -->
-    <project.build.outputTimestamp>1699291499</project.build.outputTimestamp>
+    <project.build.outputTimestamp>1726436683</project.build.outputTimestamp>
 
     <!-- OSGi configuration properties -->
     <osgi.export />
