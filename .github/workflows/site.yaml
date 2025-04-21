@@ -6,6 +6,8 @@ on:
       - site
 
 permissions: read-all
+  contents: write
+  pages: write
 
 jobs:
   build:
