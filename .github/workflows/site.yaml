@@ -6,10 +6,8 @@ on:
       - site
 
 permissions:
-  actions: write
   contents: write
   deployments: write
-  pages: write
 
 jobs:
   build:
