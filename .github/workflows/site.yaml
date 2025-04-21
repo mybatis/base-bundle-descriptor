@@ -6,6 +6,7 @@ on:
       - site
 
 permissions:
+  actions: write
   contents: write
   pages: write
 
