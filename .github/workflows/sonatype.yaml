@@ -11,9 +11,12 @@ concurrency:
   group: ${{ github.workflow }}-${{ github.ref }}
   cancel-in-progress: true
 
+env:
+  UPSTREAM_OWNER: mybatis
+
 jobs:
   build:
-    if: github.repository_owner == 'mybatis' && ! contains(toJSON(github.event.head_commit.message), '[maven-release-plugin]')
+    if: github.repository_owner == env.UPSTREAM_OWNER && ! contains(toJSON(github.event.head_commit.message), '[maven-release-plugin]')
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:
