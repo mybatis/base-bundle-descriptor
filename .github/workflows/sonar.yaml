@@ -13,7 +13,7 @@ concurrency:
 
 env:
   SONAR_ORGANIZATION: mybatis
-  SONAR_PROJECT_KEY:  mybatis_base-bundle-descriptor
+  SONAR_PROJECT_KEY: mybatis_base-bundle-descriptor
 
 jobs:
   build:
