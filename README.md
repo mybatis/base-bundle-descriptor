@@ -2,8 +2,7 @@ MYBATIS Binary Distribution
 ===========================
 
 [![Java CI](https://github.com/mybatis/base-bundle-descriptor/workflows/Java%20CI/badge.svg)](https://github.com/mybatis/base-bundle-descriptor/actions?query=workflow%3A%22Java+CI%22)
-[![Maven central](https://maven-badges.herokuapp.com/maven-central/org.mybatis/base-bundle-descriptor/badge.svg)](https://maven-badges.herokuapp.com/maven-central/org.mybatis/base-bundle-descriptor)
-[![Sonatype Nexus (Snapshots)](https://img.shields.io/nexus/s/https/oss.sonatype.org/org.mybatis/base-bundle-descriptor.svg)](https://oss.sonatype.org/content/repositories/snapshots/org/mybatis/base-bundle-descriptor/)
+[![Maven Central](https://img.shields.io/maven-central/v/org.mybatis/base-bundle-descriptor?logo=apache-maven)](https://central.sonatype.com/artifact/org.mybatis/base-bundle-descriptor)
 [![License](https://img.shields.io/:license-apache-brightgreen.svg)](https://www.apache.org/licenses/LICENSE-2.0.html)
 
 ![mybatis](https://mybatis.org/images/mybatis-logo.png)
